@@ -18,11 +18,13 @@ button{
 .big-text{
      font-family: "Notable", sans-serif;
      text-shadow: 2px 2px #ffffff;
+     font-size: 65px;
 }
 
 .forum{
     font-family: "Copse", serif;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 1px 1px #ffffff;
+    font-size: 25px;
 }
 
 p{ 

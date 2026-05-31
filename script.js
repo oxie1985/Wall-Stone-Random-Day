@@ -15,7 +15,7 @@ button.addEventListener('click', async () => {
     let output = document.getElementById("theDate");
 
     output.innerHTML = "";
-
+     
     try {
         // Construct the URL with the parameters
         let url = `https://corsproxy.io/?url=https://events.historylabs.io/date?month=${month}&day=${day}&minYear=${minYear}&maxYear=${maxYear}`;
@@ -46,6 +46,7 @@ button.addEventListener('click', async () => {
 
             // Update the screen once with the full string
             output.innerHTML = html;
+    
 
         } else {
             output.innerHTML = "No events found for this specific date and year range.";
@@ -55,6 +56,10 @@ button.addEventListener('click', async () => {
         console.error("Fetch Error:", error);
         output.innerHTML = "Error loading data. Please check your connection or parameters.";
     }
-});
 
-let newLine = "";
+       
+
+ 
+
+ });
+ 

@@ -39,13 +39,18 @@ button.addEventListener('click', async () => {
                 html += `
                     <div class="event" style="margin-bottom: 1.5rem; border-bottom: 1px solid #000000; padding-bottom: 1rem;">
                         <h3 style="color: #000000;">${event.year}</h3>
-                        <p style="font-size: 1.1rem;">${event.content}</p>
+                        <p>${event.content}</p>
                     </div>
                 `;
             });
 
             // Update the screen once with the full string
             output.innerHTML = html;
+            
+            document.getElementById("the-Body").style.height = "100%";
+           
+        
+           
     
 
         } else {

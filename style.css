@@ -8,7 +8,7 @@ button{
     width: 200px;
     height: 100px;
     font-size: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     font-family: "Slackey", sans-serif;
     background-image: linear-gradient(rgb(88, 220, 215), rgb(156, 138, 245));
     border-radius: 60px;
@@ -44,4 +44,13 @@ h3{
     font-family: "Chelsea Market", serif;
     text-shadow: 1px 1px 3px #ffffff;
     font-size: 20px;
+}
+
+input{
+    border-radius: 60px;
+}
+
+.bones{
+    height: 100px;
+    width: 100px;
 }

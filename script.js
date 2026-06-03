@@ -48,10 +48,7 @@ button.addEventListener('click', async () => {
             output.innerHTML = html;
             
             document.getElementById("the-Body").style.height = "100%";
-           
-        
-           
-    
+          
 
         } else {
             output.innerHTML = "No events found for this specific date and year range.";

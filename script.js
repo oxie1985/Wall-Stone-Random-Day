@@ -59,9 +59,4 @@ button.addEventListener('click', async () => {
         output.innerHTML = "Error loading data. Please check your connection or parameters.";
     }
 
-       
-
- 
-
  });
- 

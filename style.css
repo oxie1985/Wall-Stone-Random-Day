@@ -1,3 +1,9 @@
+html{  
+ font-family: "Chelsea Market", serif;
+ text-shadow: 1px 1px 3px #ffffff;
+ font-size: 20px;
+}
+
 body{
     text-align: center;
     min-height: 100vh;
